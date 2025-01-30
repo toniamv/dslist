@@ -18,13 +18,14 @@ A aplicação foi construída através do seguinite padrão em camadas, baseado 
 ![Imagem Modelo](modeloCamadas.png)
 
 Os EndPoints criados e os respectivos retornos a partir de arquivos JSON foram:
-~(GET)~
+
+==(GET)==
 - _/games_ - Apresenta todos os games instanciados 
 - _/games/{id}_ - Apresenta game de um ID específico
 - _/lists_ - Apresenta dados de todas as listas de games disponíveis (Divididas em categorias)
 - _/lists/{id_lista}/games_ - Apresenta todos os games de uma lista específica
 
-~(POST)~
+==(POST)==
 - _/lists/{id_lista}/replacement_ - Solicita reorganização de games numa lista, recebe no body sourceIndex - Index do jogo que se quer realocar numa lista & destinationIndex - Index que o jogo deve agora ocupar
 
 _exemplo:_
