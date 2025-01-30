@@ -1,14 +1,13 @@
 # Java Spring - Construindo a base de uma API RESTful
 ### _Aplicação produzida como projeto parte da semana de imersão Java Spring (devSuperior)_
 
-Este projeto é focado em desenvolvimento backend e possibilitou o foco em algumas especialidades e temas relacionados às seguintes tecnologias:
+Este projeto é focado em desenvolvimento backend e concentrou-se em algumas especialidades e temas relacionados às seguintes tecnologias:
 - Linguagem Java
 - Framework Java Spring com Spring Boot
 - SQL (H2 Database para testes e PostgreSQL)
 - Noções sobre Docker
 - Versionamento GIT
 - Postman
-- Noções básicas de Docker
 
 ### Funcionamento
 A aplicação produzida com o uso do Spring Boot teve como foco a construção de uma base de dados de jogos simples, inicialmente no H2 para testes e posteriormente no PostgreSQL através do Docker. Foram então criados os devidos endpoints necessários para consultar os dados armazenados e fazer as requisições.
